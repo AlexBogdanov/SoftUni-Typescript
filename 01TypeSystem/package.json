@@ -1,0 +1,25 @@
+{
+  "name": "softuni-typescript",
+  "version": "1.0.0",
+  "description": "Software University Typescript course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build-version": "tsc -v",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBogdanov/SoftUni-Typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexBogdanov/SoftUni-Typescript/issues"
+  },
+  "homepage": "https://github.com/AlexBogdanov/SoftUni-Typescript#readme",
+  "dependencies": {
+    "typescript": "3.7.3"
+  }
+}
