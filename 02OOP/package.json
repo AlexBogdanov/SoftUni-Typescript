@@ -1,0 +1,17 @@
+{
+  "name": "02OOP",
+  "version": "1.0.0",
+  "description": "Software University Typescript course\r 1. Run npm install\r 2. Run npm start",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-version": "tsc -v",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "3.7.3"
+  }
+}
